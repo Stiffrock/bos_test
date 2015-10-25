@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\bos_test2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{54ADDDD6-8F2A-4367-8357-271B6666B94B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\bos_test2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\bos_test2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4021B660-BE14-46EA-B77E-A87D64CE5401}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\bos_test2">
+      <UniqueIdentifier>{28148B22-B727-4026-84C0-ED25EA35101A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\bos_test2\bos_test2.Build.cs">
+      <Filter>Source\bos_test2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\bos_test2\bos_test2.cpp">
+      <Filter>Source\bos_test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\bos_test2\bos_test2.h">
+      <Filter>Source\bos_test2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\bos_test2\bos_test2Ball.cpp">
+      <Filter>Source\bos_test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\bos_test2\bos_test2Ball.h">
+      <Filter>Source\bos_test2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\bos_test2\bos_test2GameMode.cpp">
+      <Filter>Source\bos_test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\bos_test2\bos_test2GameMode.h">
+      <Filter>Source\bos_test2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\bos_test2\MyProjectile.h">
+      <Filter>Source\bos_test2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\bos_test2\MyProjectile.cpp">
+      <Filter>Source\bos_test2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
