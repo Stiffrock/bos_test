@@ -22,6 +22,7 @@ AMyProjectile::AMyProjectile()
 		StaticMesh->SetWorldScale3D(FVector(1.0f));
 	}
 
+
 	// Use a sphere as a simple collision representation
 	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	CollisionComp->InitSphereRadius(0.0f);
@@ -44,6 +45,8 @@ AMyProjectile::AMyProjectile()
 	ProjectileMovement->bRotationFollowsVelocity = true;
 	ProjectileMovement->bShouldBounce = true;
 
+	StaticMesh->SetSimulatePhysics(true);
+
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
 }
@@ -55,7 +58,7 @@ void AMyProjectile::OnHit(AActor* OtherActor, UPrimitiveComponent* OtherComp, FV
 	{
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
 
-		//Destroy();
+		Destroy();
 	}
 }
 

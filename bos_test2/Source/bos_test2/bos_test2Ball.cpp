@@ -90,7 +90,7 @@ void Abos_test2Ball::Fire()
 //	{
 		const FRotator SpawnRotation = GetControlRotation();
 		// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-		const FVector SpawnLocation = GetActorLocation();
+		const FVector SpawnLocation = GetActorLocation() + FVector(50.0, 50.0f, 50.0f);
 
 		UWorld* const World = GetWorld();
 		if (World != NULL)
