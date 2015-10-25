@@ -12,7 +12,7 @@ void EmptyLinkFunctionForGeneratedCodebos_test2() {}
 	void Abos_test2Ball::StaticRegisterNativesAbos_test2Ball()
 	{
 	}
-	IMPLEMENT_CLASS(Abos_test2Ball, 1750727035);
+	IMPLEMENT_CLASS(Abos_test2Ball, 1140533158);
 	void Abos_test2GameMode::StaticRegisterNativesAbos_test2GameMode()
 	{
 	}
@@ -66,6 +66,8 @@ void EmptyLinkFunctionForGeneratedCodebos_test2() {}
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_RollTorque = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RollTorque"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(RollTorque, Abos_test2Ball), 0x0000000000000001);
 				UProperty* NewProp_JumpImpulse = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("JumpImpulse"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(JumpImpulse, Abos_test2Ball), 0x0000000000000001);
+				UProperty* NewProp_DashChargeRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("DashChargeRate"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(DashChargeRate, Abos_test2Ball), 0x0000000000000001);
+				UProperty* NewProp_MaxDashImpulse = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MaxDashImpulse"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(MaxDashImpulse, Abos_test2Ball), 0x0000000000000001);
 				UProperty* NewProp_Camera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Camera"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Camera, Abos_test2Ball), 0x00000000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
 				UProperty* NewProp_SpringArm = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("SpringArm"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(SpringArm, Abos_test2Ball), 0x00000000000a001d, Z_Construct_UClass_USpringArmComponent_NoRegister());
 				UProperty* NewProp_Ball = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Ball"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Ball, Abos_test2Ball), 0x00000000000a001d, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
@@ -83,6 +85,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_JumpImpulse, TEXT("Category"), TEXT("Ball"));
 				MetaData->SetValue(NewProp_JumpImpulse, TEXT("ModuleRelativePath"), TEXT("bos_test2Ball.h"));
 				MetaData->SetValue(NewProp_JumpImpulse, TEXT("ToolTip"), TEXT("Vertical impulse to apply when pressing jump"));
+				MetaData->SetValue(NewProp_DashChargeRate, TEXT("Category"), TEXT("Ball"));
+				MetaData->SetValue(NewProp_DashChargeRate, TEXT("ModuleRelativePath"), TEXT("bos_test2Ball.h"));
+				MetaData->SetValue(NewProp_MaxDashImpulse, TEXT("Category"), TEXT("Ball"));
+				MetaData->SetValue(NewProp_MaxDashImpulse, TEXT("ModuleRelativePath"), TEXT("bos_test2Ball.h"));
 				MetaData->SetValue(NewProp_Camera, TEXT("AllowPrivateAccess"), TEXT("true"));
 				MetaData->SetValue(NewProp_Camera, TEXT("Category"), TEXT("Ball"));
 				MetaData->SetValue(NewProp_Camera, TEXT("EditInline"), TEXT("true"));
@@ -227,7 +233,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/bos_test2")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x94EAF8D5;
+			Guid.A = 0x2AF170E6;
 			Guid.B = 0x7BE0DD43;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

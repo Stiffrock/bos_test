@@ -20,12 +20,16 @@ class Abos_test2Ball : public APawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Ball, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
 
-
-	void Fire();
-
-
 public:
 	Abos_test2Ball();
+
+	void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, Category = Ball)
+	float MaxDashImpulse;
+	UPROPERTY(EditAnywhere, Category = Ball)
+	float DashChargeRate;
+	float DashImpulse;
 
 	/** Vertical impulse to apply when pressing jump */
 	UPROPERTY(EditAnywhere, Category=Ball)
@@ -37,9 +41,17 @@ public:
 
 	/** Indicates whether we can currently jump, use to prevent double jumping */
 	bool bCanJump;
+	bool dashCharging;
 
 
 protected:
+	void Fire();
+
+	void YawCamera(float Val);
+	void PitchCamera(float Val);
+
+	void DashCharge();
+	void DashRelease();
 
 	/** Called for side to side input */
 	void MoveRight(float Val);

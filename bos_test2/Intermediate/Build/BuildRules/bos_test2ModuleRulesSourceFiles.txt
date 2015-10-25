@@ -460,8 +460,8 @@ C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptGeneratorPlugin\Source\Scri
 C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
-C:\Users\Stoffe\Documents\GitHub\bos_test\bos_test2\Source\bos_test2\bos_test2.Build.cs
+D:\Users\Pandamonium\Documents\Unreal Projects\bos_test\bos_test2\Source\bos_test2\bos_test2.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Source\UE4Editor.Target.cs
 C:\Program Files\Epic Games\4.9\Engine\Source\UE4Game.Target.cs
-C:\Users\Stoffe\Documents\GitHub\bos_test\bos_test2\Source\bos_test2.Target.cs
-C:\Users\Stoffe\Documents\GitHub\bos_test\bos_test2\Source\bos_test2Editor.Target.cs
+D:\Users\Pandamonium\Documents\Unreal Projects\bos_test\bos_test2\Source\bos_test2.Target.cs
+D:\Users\Pandamonium\Documents\Unreal Projects\bos_test\bos_test2\Source\bos_test2Editor.Target.cs
